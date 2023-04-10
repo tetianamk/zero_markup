@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px;
+}
+.btn {
+  font-size: 15px;
+  color: #ff1155;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: #c1b6cb;
+}
+.btn:hover {
+  border: 1px solid#ff1155;
+  background-color: #ffffff;
+}
