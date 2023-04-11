@@ -1,9 +1,17 @@
-nav {
+nav,
+.link-container {
   display: flex;
   justify-content: space-evenly;
   margin: 100px;
 }
-.btn {
+.title {
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+  color: #990A33;
+  text-align: center;
+}
+.btn, 
+.link {
   font-size: 15px;
   color: #ff1155;
   text-transform: uppercase;
@@ -12,8 +20,21 @@ nav {
   border-radius: 7px;
   cursor: pointer;
   background-color: #c1b6cb;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
 }
-.btn:hover {
+.btn:hover,
+.link:hover {
   border: 1px solid#ff1155;
   background-color: #ffffff;
+}
+.link-on { 
+  text-decoration: none;
+}
+.link-on:hover {
+  text-decoration: underline;
+}
+
+.link:active {
+  color: black;
 }
